@@ -1,7 +1,16 @@
-# Welcome to streamlit
+# SatSchool
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+Some code to define a template for SatSchool "Working with Data" module
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+To run the entire application,
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+`streamlit run app.py`
+
+You should put your Earth Engine token in the Streamlit Secrets (see advanced settings): `EARTHENGINE_TOKEN = "TOKENHERE"`
+
+Looking to run a minimal working example of the quiz? Check out the `quiz.py` gist [here](https://gist.github.com/Spiruel/caddce0dcc0a609c804dfc4dfb20f608).
+
+## Questions?
+
+Samuel Bancroft
+eesjb@leeds.ac.uk
